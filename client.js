@@ -16,6 +16,16 @@ const connect = function () {
    conn.on('connect', () => {
      conn.write('Name: SS');
    });
+  //  conn.on('connect',() => {
+  //  setTimeout(() => {
+    
+  //     conn.write('Move: down');
+    
+  //  },1000)});
+   
+  //  conn.on('connect',() => {
+  //   conn.write('Move: left');
+  // })
 
 
   // listening for the connection to be severed
