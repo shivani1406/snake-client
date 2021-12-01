@@ -33,7 +33,31 @@ if (key === '\u0003') {
 
 if (key === 'w')
 {
-  console.log("Move: up");
+  // console.log("Move: up");
+  
+    connection.write('Move: up');
+    
+}
+if (key === 'a')
+{
+  // console.log("Move: up");
+  
+    connection.write('Move: left');
+    
+}
+if (key === 's')
+{
+  // console.log("Move: up");
+ 
+    connection.write('Move: down');
+    
+}
+if (key === 'd')
+{
+  // console.log("Move: up");
+ 
+    connection.write('Move: right');
+    
 }
 
 
