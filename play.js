@@ -5,10 +5,10 @@ const net = require("net");
  const setupInput = require('./input');
 console.log("Connecting ...");
 
-connect();
+// connect();
 
 // setup interface to handle user input from stdin
 
 
 
-setupInput();
+setupInput(connect());
